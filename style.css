@@ -5,7 +5,7 @@
 }
 
 .first-container{
-    background-image: linear-gradient(115deg, rgba(14,14,155,0.8), rgba(148,148,184, 0.6)) ,url(header-big-photo.jpg);
+    background-image: linear-gradient(115deg, rgba(14,14,155,0.8), rgba(148,148,184, 0.6)) ,url(banner-big-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,7 +14,7 @@
 }
 
 /* .first-container:hover{
-    background-image: linear-gradient(15deg, rgba(14,14,155,0.8), rgba(148,148,184, 0.6)) ,url(banner-big-2.jpg);
+    background-image: linear-gradient(15deg, rgba(14,14,155,0.8), rgba(148,148,184, 0.6)) ,url(header-big-photo.jpg);
 } */
 
 header{
@@ -94,6 +94,31 @@ header button{
     margin-top: 12%;
     margin-left: 10%;
 }
+
+.header-main svg{
+    position: relative;
+    animation-name: more-arrow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.header-main a{
+    margin-top: 8%;
+    width: 82%;
+    text-align: center;
+}
+
+@keyframes more-arrow {
+    0% {
+        top: 0;
+    }
+    50% {
+      top: 20%;
+    }
+    100% {
+        top: 0;
+      }
+  }
 
 h2, h3, p{
     font-family:'Roboto', sans-serif;
@@ -238,7 +263,19 @@ label{
 
 .container-footer ul{
     padding: 2%;
+    list-style: none;
+    
 }
+
+.container-footer li{
+    text-align: center;
+    cursor: pointer;
+}
+.container-footer a{
+    text-decoration: none;
+    color: white;
+}
+
 
 @media screen and (max-width: 768px){
     
