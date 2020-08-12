@@ -220,6 +220,18 @@ label{
     font-size: 18px;
 }
 
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(115deg, rgba(14,14,155,0.9), rgba(148,148,184, 0.6));
+}
+
+.container-footer ul{
+    padding: 2%;
+}
+
 @media screen and (max-width: 768px){
     
 }
