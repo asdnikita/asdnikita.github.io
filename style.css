@@ -152,7 +152,15 @@ h2, h3, p{
     margin-right: 25%;
 }
 
-.container-description{
+.main-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+
+/* .container-description{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,7 +170,7 @@ h2, h3, p{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
 .fa-instagram{
   font-size: 10vh;
