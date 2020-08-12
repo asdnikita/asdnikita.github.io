@@ -122,7 +122,33 @@ h2, h3, p{
     background-repeat: no-repeat;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
 
+.column{
+    width: 100%;
+}
+
+.row img{
+    width: 100%;
+}
+
+.text{
+    text-align: justify;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.container-calendar{
+    background-color: rgba(14,14,155,0.8);
+}
 
 
 @media screen and (max-width: 768px){
