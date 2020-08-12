@@ -51,52 +51,91 @@
     <div class="container-calendar" id="calendar">
         <div class="row">
             <div class="column">
-                <img src="helsinki-sample.jpg" alt="">
+                <img src="paris-1024.jpg" alt="">
             </div>
             <div class="column">
                 <div class="text right">
                 <h3 class="country-name">Berlin, Germany</h3>
-                <p class="country-description">This city has created one of the best street riders. This is our main goal to have ride with the people.</p>
+                <p class="country-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit lacus eu faucibus tincidunt. Cras ligula neque, porta et tellus nec, lacinia bibendum mauris. Suspendisse vel urna tellus. Proin pretium risus non lacinia ornare. Sed posuere nisl at nunc tincidunt, in blandit ipsum luctus. Suspendisse vitae sollicitudin nunc, vel condimentum ex. Vivamus dapibus convallis dolor et euismod. Duis in pharetra orci. Integer faucibus massa neque, quis tempus leo suscipit ac. Phasellus finibus vulputate mauris in iaculis. Morbi luctus erat neque, a porttitor lorem lobortis at. Nam id neque sed urna facilisis viverra ac quis quam.</p>
                 <p class="date">24.07.2021</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="column-1">
+            <div class="column">
                 <div class="text left">
                 <h3 class="country-name">Berlin, Germany</h3>
-                <p class="country-description"></p>
+                <p class="country-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit lacus eu faucibus tincidunt. Cras ligula neque, porta et tellus nec, lacinia bibendum mauris. Suspendisse vel urna tellus. Proin pretium risus non lacinia ornare. Sed posuere nisl at nunc tincidunt, in blandit ipsum luctus. Suspendisse vitae sollicitudin nunc, vel condimentum ex. Vivamus dapibus convallis dolor et euismod. Duis in pharetra orci. Integer faucibus massa neque, quis tempus leo suscipit ac. Phasellus finibus vulputate mauris in iaculis. Morbi luctus erat neque, a porttitor lorem lobortis at. Nam id neque sed urna facilisis viverra ac quis quam.</p>
                 <p class="date">24.07.2021</p>
                 </div>
             </div>
-            <div class="column-2">
-                <img src="" alt="">
+            <div class="column">
+                <img src="paris-1024.jpg" alt="">
             </div>
         </div>
         <div class="row">
-            <div class="column-1">
-                <img src="" alt="">
+            <div class="column">
+                <img src="paris-1024.jpg" alt="">
             </div>
-            <div class="column-2">
+            <div class="column">
                 <div class="text right">
                 <h3 class="country-name">Berlin, Germany</h3>
-                <p class="country-description"></p>
+                <p class="country-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit lacus eu faucibus tincidunt. Cras ligula neque, porta et tellus nec, lacinia bibendum mauris. Suspendisse vel urna tellus. Proin pretium risus non lacinia ornare. Sed posuere nisl at nunc tincidunt, in blandit ipsum luctus. Suspendisse vitae sollicitudin nunc, vel condimentum ex. Vivamus dapibus convallis dolor et euismod. Duis in pharetra orci. Integer faucibus massa neque, quis tempus leo suscipit ac. Phasellus finibus vulputate mauris in iaculis. Morbi luctus erat neque, a porttitor lorem lobortis at. Nam id neque sed urna facilisis viverra ac quis quam.</p>
                 <p class="date">24.07.2021</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="column-1">
+            <div class="column">
                 <div class="text left">
                 <h3 class="country-name">Berlin, Germany</h3>
-                <p class="country-description"></p>
+                <p class="country-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit lacus eu faucibus tincidunt. Cras ligula neque, porta et tellus nec, lacinia bibendum mauris. Suspendisse vel urna tellus. Proin pretium risus non lacinia ornare. Sed posuere nisl at nunc tincidunt, in blandit ipsum luctus. Suspendisse vitae sollicitudin nunc, vel condimentum ex. Vivamus dapibus convallis dolor et euismod. Duis in pharetra orci. Integer faucibus massa neque, quis tempus leo suscipit ac. Phasellus finibus vulputate mauris in iaculis. Morbi luctus erat neque, a porttitor lorem lobortis at. Nam id neque sed urna facilisis viverra ac quis quam.</p>
                 <p class="date">24.07.2021</p>
                 </div>
             </div>
-            <div class="column-2">
-                <img src="" alt="">
+            <div class="column">
+                <img src="paris-1024.jpg" alt="">
             </div>
         </div>
+    </div>
+
+    <!--Application Form-->
+    <div class="container-form" id="application-form">
+        <h2 class="form-header">APPLY FOR RIDE!</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="surname">Surname</label>
+                <input type="text"  id="surname" name="surname" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Age</label>
+                <input type="number" id="number" name="age" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <p>What is your skill level?</p>
+                <label><input type="radio" class="input-radio" checked>Semi-Pro Rider</label>
+                <label><input type="radio" class="input-radio">Pro Rider</label>
+            </div>
+            <div class="form-group">
+                <p>What is your riding style?</p>
+                <select name="style" id="dropdown" class="form-control">
+                    <option disabled="" selected="" value="">Select your style</option>
+                    <option value="park">Park</option>
+                    <option value="street">Street</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Why do you want to go with us?</p>
+                <textarea name="motivation" id="motivation" class="input-textarea" placeholder="Tell us why you want to go with us..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>
