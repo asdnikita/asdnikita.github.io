@@ -52,7 +52,7 @@ header{
 }
 
 header li, header a, header button{
-    padding: 0.5vmin 2vmin;
+    padding: 0.5vmin 2.5vmin;
     align-self: center;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -216,6 +216,13 @@ iframe{
     width: 100%;
 }
 
+.column .date{
+    text-align: center;
+    background-color: black;
+    border-radius: 50px;
+    padding: 1vh 0;
+}
+
 .row img{
     max-width: 100%;
     height: auto;
@@ -324,6 +331,7 @@ label{
 .container-footer li{
     text-align: center;
     cursor: pointer;
+    padding: 0.5rem 0;
 }
 .container-footer a{
     text-decoration: none;

@@ -111,19 +111,19 @@
 
     <!--Application Form-->
     <div class="container-form" id="application-form">
-        <h2 class="form-header">APPLY FOR RIDE!</h2>
+        <h2 class="form-header">APPLY FOR A RIDE!</h2>
         <form>
             <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" class="form-control" required>
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name" class="form-control" required placeholder="Enter your name">
             </div>
             <div class="form-group">
-                <label for="surname">Surname</label>
-                <input type="text"  id="surname" name="surname" class="form-control" required>
+                <label for="surname">Surname*</label>
+                <input type="text"  id="surname" name="surname" class="form-control" required placeholder="Enter your surname">
             </div>
             <div class="form-group">
-                <label for="number">Age</label>
-                <input type="number" id="number" name="age" class="form-control" required>
+                <label for="number">Age*</label>
+                <input type="number" id="number" name="age" class="form-control" required min="18" max="60">
             </div>
             <div class="form-group">
                 <p>What is your skill level?</p>
@@ -143,7 +143,10 @@
                 <textarea name="motivation" id="motivation" class="input-textarea" placeholder="Tell us why you want to go with us..."></textarea>
             </div>
             <div class="form-group">
-                <button type="submit">Submit</button>
+                <p>*-required fields</p>
+            </div>
+            <div class="form-group">
+                <button type="submit" >Submit</button>
             </div>
         </form>
     </div>
@@ -151,8 +154,8 @@
     <!--Footer-->
     <div class="container-footer">
         <ul>
-            <li><a href="https://www.instagram.com/rideoo.shop/?hl=en">Follow us on Instagram</a></li>
-            <li><a href="tel:+37122334455">Contact us</li>
+            <li><a href="https://www.instagram.com/rideoo.shop/?hl=en" target="_blank">Follow us on Instagram</a></li>
+            <li><a href="mailto:info@rideoo.com">Contact us</li>
             <li>&copy; All Rights Reserved</li>
         </ul>
     </div>
