@@ -13,6 +13,10 @@
     height: 95vh;
 }
 
+/* .first-container:hover{
+    background-image: linear-gradient(15deg, rgba(14,14,155,0.8), rgba(148,148,184, 0.6)) ,url(banner-big-2.jpg);
+} */
+
 header{
     display: flex;
     justify-content: space-around;
@@ -34,7 +38,7 @@ header{
 }
 
 header li, header a, header button{
-    padding: 9px 20px;
+    padding: 0.5vmin 2vmin;
     align-self: center;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -75,21 +79,20 @@ header button{
     margin: 5px;
 }
 
-.header-title{
-    margin-top: 5%;
-    margin-bottom: -5%;
-}
+
 .header-title, #countdown{
-    font-family: bungee,sans-serif;
-    font-weight: 600;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 8vh;
+    font-size: 7vh;
 }
 
 .header-main{
-    width:100vw;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 12%;
+    margin-left: 10%;
 }
 
 h2, h3, p{
@@ -137,6 +140,11 @@ h2, h3, p{
 .row img{
     max-width: 100%;
     height: auto;
+    vertical-align: bottom;
+}
+
+.container-calendar{
+    object-fit: fill;
 }
 
 .text{
