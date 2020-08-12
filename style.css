@@ -118,7 +118,7 @@ header button{
 
 .header-main a{
     margin-top: 8%;
-    width: 82%;
+    width: 77vw;
     text-align: center;
 }
 
@@ -155,7 +155,11 @@ h2, h3, p{
 .main-info h2{grid-area: h2-title}
 .info-text{grid-area: text}
 .iframe-video{grid-area:video;
-    padding-bottom: 10%;
+    padding-bottom: 7%;
+}
+iframe{
+    width: 40vw; 
+    height: 50vh;
 }
 
 .main-info{
