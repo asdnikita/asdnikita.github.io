@@ -11,11 +11,25 @@
     background-position: center;
     background-attachment: fixed;
     height: 95vh;
+    animation-name: background-change;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 }
 
-/* .first-container:hover{
-    background-image: linear-gradient(15deg, rgba(14,14,155,0.8), rgba(148,148,184, 0.6)) ,url(header-big-photo.jpg);
-} */
+@keyframes background-change{
+    25% {
+        background-image: linear-gradient(15deg, rgba(14,14,155,0.8), rgba(148,148,184, 0.6)) ,url(header-big-photo.jpg);
+    }
+    50%{
+        background-image: linear-gradient(15deg, rgba(14,14,155,0.8), rgba(148,148,184, 0.6)) ,url(banner-big-3.jpg);
+    }
+    75%{
+        background-image: linear-gradient(15deg, rgba(14,14,155,0.8), rgba(148,148,184, 0.6)) ,url(banner-big-4.jpg);
+    }
+    100%{
+        background-image: linear-gradient(115deg, rgba(14,14,155,0.8), rgba(148,148,184, 0.6)) ,url(banner-big-2.jpg);
+    }
+}
 
 header{
     display: flex;
