@@ -355,12 +355,13 @@ label{
 
 @media screen and (max-width: 768px){
     .wrapper{
+        position: relative;
         overflow-x: hidden;
     }
 
     .first-container{
         background-image: linear-gradient(115deg, rgba(14,14,155,0.5), rgba(148,148,184, 0.6)) ,url(background-mob-1.jpg);
-        background-size: contain;
+        background-size: cover;
         animation-name: stop-background-change;
     }
     
