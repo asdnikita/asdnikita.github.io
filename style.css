@@ -381,8 +381,8 @@ label{
     }
 
     .text{
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     .burger{
@@ -425,6 +425,28 @@ label{
         font-size: 2em;
     }
 
+    .container-calendar{
+        display: grid;
+    }
+
+    .row{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }    
     
+    .grid-photo{
+        order: 1;
+    }
+
+    .grid-text{
+        order: 2;
+        text-align: justify;
+    }
+
+    .form-header{
+        font-size: 2em;
+        margin-top: 15%;
+    }
+
 
 }
