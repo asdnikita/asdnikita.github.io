@@ -99,15 +99,18 @@ header button{
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 7vh;
+    margin-left: 10%;
+}
+
+.header-title{
+    align-self: center;
 }
 
 .header-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 12%;
-    margin-left: 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 79%;
+
 }
 
 /* .header-main svg{
@@ -389,11 +392,6 @@ label{
 
     .header-title, #countdown{
         font-size: 5vh;
-    }
-
-    .header-main{
-        text-align: center;
-        margin-top: 20%;
     }
 
     .header-main h1{
